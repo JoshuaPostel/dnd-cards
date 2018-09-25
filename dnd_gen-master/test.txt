@@ -1,0 +1,52 @@
+\documentclass[parskip]{scrartcl}
+\usepackage[margin=15mm]{geometry}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{anttor}
+\usepackage[utf8]{inputenc}
+\graphicspath{ {images/} }
+\\begin{document}
+\pgfmathsetmacro{\cardwidth}{5}
+\pgfmathsetmacro{\cardheight}{8}
+\pgfmathsetmacro{\stripwidth}{0.6}
+\pgfmathsetmacro{\strippadding}{0.1}
+\pgfmathsetmacro{\\textpadding}{0.1}
+\pgfmathsetmacro{\\ruleheight}{0.15}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[c,rounded corners=0.1cm] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,white,font=\large] {\rotatebox[origin=c]{-90}{W} \bf Acid Splash \rotatebox[origin=c]{-90}{0}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\Large Acid Splash \\}
+		{\scriptsize \it ifDEX (Fail)\\\*\\}
+		{\scriptsize \bf Target:\,\,}{\scriptsize 1 or 2 adjacent targets\\}
+		{\scriptsize \bf Range:\,\,}{\scriptsize 60 ft.\\}
+		{\scriptsize \bf Roll:\,\,}{\scriptsize DAM: 1d6\,\,}{\scriptsize \it ifAcid}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	\\\hspace\\
+	{\scriptsize \it DAM: Add extra 1d6 at 5th level, 11th level, and 17th level. \\}
+        {\scriptsize if@h} % <------Give a line break here
+ \vfill
+{\scriptsize if@n (@p)} };
+
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[c,rounded corners=0.1cm] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,white,font=\large] {\rotatebox[origin=c]{-90}{S} \bf Blade Ward \rotatebox[origin=c]{-90}{0}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\Large Blade Ward \\}
+		{\scriptsize \it if\\\*\\}
+		{\scriptsize \bf Target:\,\,}{\scriptsize Self\\}
+		{\scriptsize \bf Range:\,\,}{\scriptsize Self\\}
+		{\scriptsize \bf Roll:\,\,}{\scriptsize \,\,}{\scriptsize \it if}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	\\\hspace\\
+	{\scriptsize \it Gain resistance to bludgeoning/piercing/slashing DMG from weapons. \\}
+        {\scriptsize if} % <------Give a line break here
+ \vfill
+{\scriptsize if@n (@p)} };
+
+\end{tikzpicture}
+
+\end{document}

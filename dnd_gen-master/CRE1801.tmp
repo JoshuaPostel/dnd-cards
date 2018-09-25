@@ -1,0 +1,844 @@
+\documentclass[parskip]{scrartcl}
+\usepackage[margin=3mm]{geometry}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{anttor}
+\usepackage[utf8]{inputenc}
+\newcommand*\subclass[2]{\tikz[baseline=(char.base)]{\node[shape=circle,black,fill=#1,draw,inner sep=.5pt] (char) {\small #2};}}
+\newcommand*\class[1]{\tikz[baseline=-.6ex]\draw[black,fill=#1] (0,0) circle (1ex);}
+\graphicspath{ {images/} }
+\begin{document}
+\pgfmathsetmacro{\cardwidth}{6.6}
+\pgfmathsetmacro{\cardheight}{9.2}
+\pgfmathsetmacro{\stripwidth}{0.6}
+\pgfmathsetmacro{\strippadding}{0.1}
+\pgfmathsetmacro{\textpadding}{0.1}
+\pgfmathsetmacro{\ruleheight}{0.15}
+\definecolor{Abj}{rgb}{0.0, 0.44, 0.87}
+\definecolor{Con}{rgb}{0.85, 0.65, 0.13}
+\definecolor{Div}{rgb}{1.0, 0.98, 0.94}
+\definecolor{Enc}{rgb}{0.41, 0.16, 0.38}
+\definecolor{Evo}{rgb}{0.89, 0.15, 0.21}
+\definecolor{Ill}{rgb}{0.75, 0.75, 0.75}
+\definecolor{Nec}{rgb}{0, 0, 0}
+\definecolor{Tra}{rgb}{0.12, 0.3, 0.17}
+\definecolor{dAbj}{rgb}{1, 1, 1}
+\definecolor{dCon}{rgb}{0, 0, 0}
+\definecolor{dDiv}{rgb}{0, 0, 0}
+\definecolor{dEnc}{rgb}{1, 1, 1}
+\definecolor{dEvo}{rgb}{1, 1, 1}
+\definecolor{dIll}{rgb}{0, 0, 0}
+\definecolor{dNec}{rgb}{1, 1, 1}
+\definecolor{dTra}{rgb}{1, 1, 1}
+\definecolor{red}{HTML}{C41F3B}
+\definecolor{blue}{HTML}{69CCF0}
+\definecolor{yellow}{HTML}{FFF569}
+\definecolor{orange}{HTML}{FF7D0A}
+\definecolor{pink}{HTML}{F58CBA}
+\definecolor{green}{HTML}{ABD473}
+\definecolor{purple}{HTML}{9482C9}
+
+\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Div] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dDiv,font=\large] {Divination \class{white}\rotatebox[origin=c]{-90}{\subclass{orange}{F}}\rotatebox[origin=c]{-90}{\subclass{orange}{G}} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Divination \\}
+		{\tiny \\\*\\} % 234 211 V S M  INCENSE, SAC. OFFERING  \textit (ritual) 1 action Instantaneous  Question about one event in next 7 days answered by phrase or omen.  Self     - 25 gp 
+		{ Question about one event in next 7 days answered by phrase or omen. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action \textit (ritual) \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small  }
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small  }{\small \it  \\}
+		{\small  }
+		{\small  }
+    {\small \textbf Components:\,\,}{\small (VSM INCENSE, SAC. OFFERING- 25 gp) \\}
+		{\small \textbf ID:\,\,}{\small 211 (page 234)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False0
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Enc] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEnc,font=\large] {Dominate Beast \rotatebox[origin=c]{-90}{\subclass{white}{N}}\class{orange}\class{red}\rotatebox[origin=c]{-90}{\subclass{purple}{A}}\rotatebox[origin=c]{-90}{\subclass{purple}{O}} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Dominate Beast \\}
+		{\tiny \\\*\\} % 234 212 V S   \textit (concentration)  1 action 1 minute {\textbf Per Higher Lv:} See Sourcebook. Charm beast to give it commands. Has advantage to save if attacking it. {\textbf Target:} 1 beast 60 ft.   {\textbf Saving Throw:} WIS (Fail)   \textit (concentration)
+		{ Charm beast to give it commands. Has advantage to save if attacking it. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} 1 beast \\}
+		{\small \textbf Range:\,\,}{\small 60 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small {\textbf Per Higher Lv:} See Sourcebook. \\}
+		{\small {\textbf Saving Throw:} WIS (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 212 (page 234)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False1
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Evard's Black Tentacles \rotatebox[origin=c]{-90}{\subclass{purple}{O}}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Evard's Black Tentacles \\}
+		{\tiny \\\*\\} % 238 213 V S M  piece of octopus temtacle \textit (concentration)  1 action 1 minute  Also restrained. Restrained take DAM every turn. STR/DEX check to get free. {\textbf Target:} 20 ft. square 90 ft. {\textbf Roll:}  3d6 Bludgeoning {\textbf Saving Throw:} DEX while in area (Fail) Bludgeoning  \textit (concentration)
+		{ Also restrained. Restrained take DAM every turn. STR/DEX check to get free. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} 20 ft. square \\}
+		{\small \textbf Range:\,\,}{\small 90 ft. \\}
+		{\small {\textbf Roll:}  3d6 }{\small \it Bludgeoning \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} DEX while in area (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VSM piece of octopus temtacle) \\}
+		{\small \textbf ID:\,\,}{\small 213 (page 238)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True2
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Fabricate \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Fabricate \\}
+		{\tiny \\\*\\} % 239 214 V S     10 minutes Instantaneous  Convert raw materials into object no bigger than 5 ft. cube. {\textbf Target:} 10 ft. cube 120 ft.      
+		{ Convert raw materials into object no bigger than 5 ft. cube. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 10 minutes  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small {\textbf Target:} 10 ft. cube \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 214 (page 239)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False3
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Fire Shield \rotatebox[origin=c]{-90}{\subclass{purple}{F}}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Fire Shield \\}
+		{\tiny \\\*\\} % 242 215 V S M  bit of phosphorous or a firefly   1 action 10 minutes  Choose warm or chill shield. Melee attackers take DMG. Light out 10 ft./20 ft. {\textbf Target:} Self Self {\textbf Roll:}  2d8 Fire/Cold  Fire/Cold  
+		{ Choose warm or chill shield. Melee attackers take DMG. Light out 10 ft./20 ft. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 10 minutes  \\}
+		{\small {\textbf Target:} Self \\}
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small {\textbf Roll:}  2d8 }{\small \it Fire/Cold \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM bit of phosphorous or a firefly) \\}
+		{\small \textbf ID:\,\,}{\small 215 (page 242)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False4
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Freedom of Movement \class{yellow}\class{white}\rotatebox[origin=c]{-90}{\subclass{white}{R}}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{A}}\rotatebox[origin=c]{-90}{\subclass{orange}{C}}\rotatebox[origin=c]{-90}{\subclass{orange}{F}}\rotatebox[origin=c]{-90}{\subclass{orange}{G}}\rotatebox[origin=c]{-90}{\subclass{orange}{S}}\rotatebox[origin=c]{-90}{\subclass{pink}{D}}\class{green} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Freedom of Movement \\}
+		{\tiny \\\*\\} % 244 216 V S M  leather strap around arm   1 action 1 hour  Immune to difficult terrain,slow,paralyze,restrain. Spend 5ft to escape restrain. @a @r @d @k @t @k @f @g
+		{ Immune to difficult terrain,slow,paralyze,restrain. Spend 5ft to escape restrain. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 hour @g \\}
+		{\small @a \\}
+		{\small \textbf Range:\,\,}{\small @r \\}
+		{\small @d }{\small \it @k \\}
+		{\small  \\}
+		{\small @t \\}
+    {\small \textbf Components:\,\,}{\small (VSM leather strap around arm@f) \\}
+		{\small \textbf ID:\,\,}{\small 216 (page 244)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True5
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Giant Insect \class{orange} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Giant Insect \\}
+		{\tiny \\\*\\} % 245 217 V S   \textit (concentration)  1 action 10 minutes  Turn insects into giant insects that obey your commands. {\textbf Target:} See Sourcebook. 30 ft.      \textit (concentration)
+		{ Turn insects into giant insects that obey your commands. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 10 minutes \textit (concentration) \\}
+		{\small {\textbf Target:} See Sourcebook. \\}
+		{\small \textbf Range:\,\,}{\small 30 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 217 (page 245)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False6
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Grasping Vine \rotatebox[origin=c]{-90}{\subclass{white}{N}}\class{orange}\class{green} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Grasping Vine \\}
+		{\tiny \\\*\\} % 246 218 V S   \textit (concentration)  1 bonus action 1 minute  Create vine that lashes out 30 ft. away. Targets failing save pulled 20 ft. to vine.  30 ft.   {\textbf Saving Throw:} DEX (Fail)   \textit (concentration)
+		{ Create vine that lashes out 30 ft. away. Targets failing save pulled 20 ft. to vine. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 bonus action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small  \\}
+		{\small \textbf Range:\,\,}{\small 30 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} DEX (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 218 (page 246)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False7
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Ill] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dIll,font=\large] {Greater Invisibility \class{yellow}\rotatebox[origin=c]{-90}{\subclass{orange}{U}}\class{red}\rotatebox[origin=c]{-90}{\subclass{purple}{A}}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Greater Invisibility \\}
+		{\tiny \\\*\\} % 246 219 V S   \textit (concentration)  1 action 1 minute  Become invisible until spell ends. {\textbf Target:} Self or willing creature Touch      \textit (concentration)
+		{ Become invisible until spell ends. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} Self or willing creature \\}
+		{\small \textbf Range:\,\,}{\small Touch \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 219 (page 246)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True8
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Guardian of Faith \class{white}\rotatebox[origin=c]{-90}{\subclass{white}{F}}\rotatebox[origin=c]{-90}{\subclass{white}{L}}\rotatebox[origin=c]{-90}{\subclass{pink}{D}} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Guardian of Faith \\}
+		{\tiny \\\*\\} % 246 220 V      1 action 8 hours  Create spectral guardian that attacks hostiles. Leaves after dealing 60 DAM.  30 ft. {\textbf Roll:}  20 Radiant {\textbf Saving Throw:} DEX (No DAM) Radiant  
+		{ Create spectral guardian that attacks hostiles. Leaves after dealing 60 DAM. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 8 hours  \\}
+		{\small  \\}
+		{\small \textbf Range:\,\,}{\small 30 ft. \\}
+		{\small {\textbf Roll:}  20 }{\small \it Radiant \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} DEX (No DAM) \\}
+    {\small \textbf Components:\,\,}{\small (V) \\}
+		{\small \textbf ID:\,\,}{\small 220 (page 246)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False9
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Ill] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dIll,font=\large] {Hallucinatory Terrain \class{yellow}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{D}}\class{purple}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Hallucinatory Terrain \\}
+		{\tiny \\\*\\} % 249 221 V S M  stone, twig, bit of green plant   10 minutes 24 hours  Make natural terrain seem like other terrain. Investigation check to disbelieve. {\textbf Target:} 150 ft. cube 300 ft.      
+		{ Make natural terrain seem like other terrain. Investigation check to disbelieve. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 10 minutes  \\}
+		{\small \textbf Duration:\,\,}{\small 24 hours  \\}
+		{\small {\textbf Target:} 150 ft. cube \\}
+		{\small \textbf Range:\,\,}{\small 300 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM stone, twig, bit of green plant) \\}
+		{\small \textbf ID:\,\,}{\small 221 (page 249)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False10
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Ice Storm \rotatebox[origin=c]{-90}{\subclass{white}{P}}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{A}}\rotatebox[origin=c]{-90}{\subclass{pink}{A}}\class{red}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Ice Storm \\}
+		{\tiny \\\*\\} % 252 222 V S M  pinch of dust, drop of water   1 action Instantaneous {\textbf Per Higher Lv:} Extra 1d8 bludgeoning DAM. Storm's area of effect becomes difficult terrain until end of next turn. {\textbf Target:} 20 ft. rad, 40ft. high cylinder 300 ft. {\textbf Roll:}  2d8+4d6 Bludgeoning+Cold {\textbf Saving Throw:} DEX (Half DAM) Bludgeoning+Cold @f @g
+		{ Storm's area of effect becomes difficult terrain until end of next turn. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous @g \\}
+		{\small {\textbf Target:} 20 ft. rad, 40ft. high cylinder \\}
+		{\small \textbf Range:\,\,}{\small 300 ft. \\}
+		{\small {\textbf Roll:}  2d8+4d6 }{\small \it Bludgeoning+Cold \\}
+		{\small {\textbf Per Higher Lv:} Extra 1d8 bludgeoning DAM. \\}
+		{\small {\textbf Saving Throw:} DEX (Half DAM) \\}
+    {\small \textbf Components:\,\,}{\small (VSM pinch of dust, drop of water@f) \\}
+		{\small \textbf ID:\,\,}{\small 222 (page 252)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True11
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Leomund's Secret Chest \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Leomund's Secret Chest \\}
+		{\tiny \\\*\\} % 254 223 V S M  chest(5000), replica chest(50)   1 action Instantaneous  Transport chest back and forth from Ethereal Plane using replica. {\textbf Target:} 1 chest Touch     - 5050 gp 
+		{ Transport chest back and forth from Ethereal Plane using replica. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small {\textbf Target:} 1 chest \\}
+		{\small \textbf Range:\,\,}{\small Touch \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM chest(5000), replica chest(50)- 5050 gp) \\}
+		{\small \textbf ID:\,\,}{\small 223 (page 254)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False12
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Div] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dDiv,font=\large] {Locate Creature \class{yellow}\class{white}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{S}}\class{pink}\class{green}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Locate Creature \\}
+		{\tiny \\\*\\} % 256 224 V S M  bloodhound fur   1 action Instantaneous  Sense creature direction within 1000 ft. or locate it within 30 ft. {\textbf Target:} 1 creature familiar to you Self      
+		{ Sense creature direction within 1000 ft. or locate it within 30 ft. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small {\textbf Target:} 1 creature familiar to you \\}
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM bloodhound fur) \\}
+		{\small \textbf ID:\,\,}{\small 224 (page 256)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False13
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Mordenkainen's Faithful Hound \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Mordenkainen's Faithful Hound \\}
+		{\tiny \\\*\\} % 261 225 V S M  silver whistle, bone, thread   1 action 8 hours  Spectral hound guards area and can attack hostiles.  See Sourcebook.  30 ft. {\textbf Roll:}  4d8 Piercing  Piercing  
+		{ Spectral hound guards area and can attack hostiles.  See Sourcebook. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 8 hours  \\}
+		{\small  \\}
+		{\small \textbf Range:\,\,}{\small 30 ft. \\}
+		{\small {\textbf Roll:}  4d8 }{\small \it Piercing \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM silver whistle, bone, thread) \\}
+		{\small \textbf ID:\,\,}{\small 225 (page 261)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True14
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Mordenkainen's Private Sanctum \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Mordenkainen's Private Sanctum \\}
+		{\tiny \\\*\\} % 262 226 V S M  lead,glass,cloth,chrysolite   10 minutes 24 hours {\textbf Per Higher Lv:} Extra 100 ft. per cube side Create magically secure area.  See Sourcebook. {\textbf Target:} $\leq$ 100 ft. cube 120 ft.      
+		{ Create magically secure area.  See Sourcebook. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 10 minutes  \\}
+		{\small \textbf Duration:\,\,}{\small 24 hours  \\}
+		{\small {\textbf Target:} $\leq$ 100 ft. cube \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small {\textbf Per Higher Lv:} Extra 100 ft. per cube side \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM lead,glass,cloth,chrysolite) \\}
+		{\small \textbf ID:\,\,}{\small 226 (page 262)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False15
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Otiluke's Resilient Sphere \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Otiluke's Resilient Sphere \\}
+		{\tiny \\\*\\} % 264 227 V S M  hemispheres of crystal,arabic \textit (concentration)  1 action 1 minute  Trap creature in sphere.  Sphere only destroyed by Disintegrate spell. {\textbf Target:} 1 creature or object 30 ft.   {\textbf Saving Throw:} DEX (Fail)   \textit (concentration)
+		{ Trap creature in sphere.  Sphere only destroyed by Disintegrate spell. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} 1 creature or object \\}
+		{\small \textbf Range:\,\,}{\small 30 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} DEX (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VSM hemispheres of crystal,arabic) \\}
+		{\small \textbf ID:\,\,}{\small 227 (page 264)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False16
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Ill] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dIll,font=\large] {Phantasmal Killer \class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Phantasmal Killer \\}
+		{\tiny \\\*\\} % 265 228 V S   \textit (concentration)  1 action 1 minute {\textbf Per Higher Lv:} Extra 1d10 DAM. Target is frightened and takes DAM at start of turn if it doesn't save. {\textbf Target:} 1 creature 120 ft. {\textbf Roll:}  4d10 Psychic {\textbf Saving Throw:} WIS (Fail) Psychic  \textit (concentration)
+		{ Target is frightened and takes DAM at start of turn if it doesn't save. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} 1 creature \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small {\textbf Roll:}  4d10 }{\small \it Psychic \\}
+		{\small {\textbf Per Higher Lv:} Extra 1d10 DAM. \\}
+		{\small {\textbf Saving Throw:} WIS (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 228 (page 265)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True17
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Polymorph \class{yellow}\rotatebox[origin=c]{-90}{\subclass{white}{T}}\class{orange}\class{red}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Polymorph \\}
+		{\tiny \\\*\\} % 266 229 V S M  caterpillar cocoon \textit (concentration)  1 action 1 hour  Transform creature's form. All stats change. Limited to actions of new form. {\textbf Target:} 1 creature 60 ft.   {\textbf Saving Throw:} WIS (Fail)   \textit (concentration)
+		{ Transform creature's form. All stats change. Limited to actions of new form. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 hour \textit (concentration) \\}
+		{\small {\textbf Target:} 1 creature \\}
+		{\small \textbf Range:\,\,}{\small 60 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} WIS (Fail) \\}
+    {\small \textbf Components:\,\,}{\small (VSM caterpillar cocoon) \\}
+		{\small \textbf ID:\,\,}{\small 229 (page 266)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False18
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Staggering Smite \class{pink} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Staggering Smite \\}
+		{\tiny \\\*\\} % 278 230 V    \textit (concentration)  1 bonus action 1 minute  WIS save or disadvantage on attack & ability checks; can't take reactions. {\textbf Target:} Self Self {\textbf Roll:}  4d6 Psychic {\textbf Saving Throw:} Melee Weapon Attack Psychic  \textit (concentration)
+		{ WIS save or disadvantage on attack & ability checks; can't take reactions. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 bonus action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} Self \\}
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small {\textbf Roll:}  4d6 }{\small \it Psychic \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} Melee Weapon Attack \\}
+    {\small \textbf Components:\,\,}{\small (V) \\}
+		{\small \textbf ID:\,\,}{\small 230 (page 278)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False19
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Stone Shape \class{white}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{N}}\rotatebox[origin=c]{-90}{\subclass{orange}{U}}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Stone Shape \\}
+		{\tiny \\\*\\} % 278 231 V S M  soft clay in desired shape   1 action Instantaneous  Reshape stone into any rough shape you wish. {\textbf Target:} 5 ft. cube Touch      
+		{ Reshape stone into any rough shape you wish. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small {\textbf Target:} 5 ft. cube \\}
+		{\small \textbf Range:\,\,}{\small Touch \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM soft clay in desired shape) \\}
+		{\small \textbf ID:\,\,}{\small 231 (page 278)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True20
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Stoneskin \rotatebox[origin=c]{-90}{\subclass{white}{R}}\class{orange}\rotatebox[origin=c]{-90}{\subclass{orange}{N}}\rotatebox[origin=c]{-90}{\subclass{pink}{A}}\class{green}\class{red}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Stoneskin \\}
+		{\tiny \\\*\\} % 278 232 V S M  DIAMOND DUST \textit (concentration)  1 action 1 hour  Target gains resistance to nonmagical bludgeoning, piercing, and slashing DMG. {\textbf Target:} 1 willing creature Touch     - 100 gp \textit (concentration)
+		{ Target gains resistance to nonmagical bludgeoning, piercing, and slashing DMG. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 hour \textit (concentration) \\}
+		{\small {\textbf Target:} 1 willing creature \\}
+		{\small \textbf Range:\,\,}{\small Touch \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM DIAMOND DUST- 100 gp) \\}
+		{\small \textbf ID:\,\,}{\small 232 (page 278)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False21
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Wall of Fire \rotatebox[origin=c]{-90}{\subclass{white}{L}}\class{orange}\class{red}\rotatebox[origin=c]{-90}{\subclass{purple}{F}}\class{blue} \rotatebox[origin=c]{-90}{\textbf 4}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Wall of Fire \\}
+		{\tiny \\\*\\} % 285 233 V S M  small piece of phosphorous \textit (concentration)  1 action 1 minute {\textbf Per Higher Lv:} Extra 1d8 DAM. Those entering or ending turn on one side of the wall take 5d8 fire DAM. {\textbf Target:} See Sourcebook. 120 ft. {\textbf Roll:}  5d8 Fire {\textbf Saving Throw:} DEX (Half DAM) Fire  \textit (concentration)
+		{ Those entering or ending turn on one side of the wall take 5d8 fire DAM. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} See Sourcebook. \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small {\textbf Roll:}  5d8 }{\small \it Fire \\}
+		{\small {\textbf Per Higher Lv:} Extra 1d8 DAM. \\}
+		{\small {\textbf Saving Throw:} DEX (Half DAM) \\}
+    {\small \textbf Components:\,\,}{\small (VSM small piece of phosphorous) \\}
+		{\small \textbf ID:\,\,}{\small 233 (page 285)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False22
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Animate Objects \class{yellow}\class{red}\class{blue} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Animate Objects \\}
+		{\tiny \\\*\\} % 213 234 V S   \textit (concentration)  1 action 1 minute {\textbf Per Higher Lv:} Two more objects Animate objects to accept simple commands. {\textbf Target:} $\leq$ 10 objects 120 ft.      \textit (concentration)
+		{ Animate objects to accept simple commands. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} $\leq$ 10 objects \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small  }{\small \it  \\}
+		{\small {\textbf Per Higher Lv:} Two more objects \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 234 (page 213)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True23
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Antilife Shell \rotatebox[origin=c]{-90}{\subclass{white}{D}}\class{orange} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Antilife Shell \\}
+		{\tiny \\\*\\} % 213 235 V S   \textit (concentration)  1 action 1 hour  Erects barrier around you that moves with you.  Living creatures cannot enter. {\textbf Target:} Self 10 ft. radius      \textit (concentration)
+		{ Erects barrier around you that moves with you.  Living creatures cannot enter. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 hour \textit (concentration) \\}
+		{\small {\textbf Target:} Self \\}
+		{\small \textbf Range:\,\,}{\small 10 ft. radius \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 235 (page 213)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False24
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Tra] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dTra,font=\large] {Awaken \class{yellow}\class{orange} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Awaken \\}
+		{\tiny \\\*\\} % 216 236 V S M  AGATE   8 hours Instantaneous  Target with INT $\leq$ 3 gaints INT 10 and can speak. Charmed for 30 days. {\textbf Target:} 1 beast/plant $\leq$ Huge Touch     - 1000 gp 
+		{ Target with INT $\leq$ 3 gaints INT 10 and can speak. Charmed for 30 days. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 8 hours  \\}
+		{\small \textbf Duration:\,\,}{\small Instantaneous  \\}
+		{\small {\textbf Target:} 1 beast/plant $\leq$ Huge \\}
+		{\small \textbf Range:\,\,}{\small Touch \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM AGATE- 1000 gp) \\}
+		{\small \textbf ID:\,\,}{\small 236 (page 216)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False25
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Banishing Smite \class{pink} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Banishing Smite \\}
+		{\tiny \\\*\\} % 216 237 V    \textit (concentration)  1 bonus action 1 minute  Target banished if $\leq$ 50 HP. {\textbf Target:} Self Self {\textbf Roll:}  5d10 Force {\textbf Saving Throw:} Weapon Attack Force  \textit (concentration)
+		{ Target banished if $\leq$ 50 HP. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 bonus action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small {\textbf Target:} Self \\}
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small {\textbf Roll:}  5d10 }{\small \it Force \\}
+		{\small  \\}
+		{\small {\textbf Saving Throw:} Weapon Attack \\}
+    {\small \textbf Components:\,\,}{\small (V) \\}
+		{\small \textbf ID:\,\,}{\small 237 (page 216)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True26
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Evo] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dEvo,font=\large] {Bigby's Hand \class{blue} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Bigby's Hand \\}
+		{\tiny \\\*\\} % 218 238 V S M  eggshell, snakeskin glove \textit (concentration)  1 action 1 minute {\textbf Per Higher Lv:} See Sourcebook. Create giant hand to do various things.  See Sourcebook.  120 ft. {\textbf Roll:} See Sourcebook. Force  Force  \textit (concentration)
+		{ Create giant hand to do various things.  See Sourcebook. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 1 minute \textit (concentration) \\}
+		{\small  \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small {\textbf Roll:} See Sourcebook. }{\small \it Force \\}
+		{\small {\textbf Per Higher Lv:} See Sourcebook. \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (VSM eggshell, snakeskin glove) \\}
+		{\small \textbf ID:\,\,}{\small 238 (page 218)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False27
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Abj] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dAbj,font=\large] {Circle of Power \class{pink} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Circle of Power \\}
+		{\tiny \\\*\\} % 221 239 V    \textit (concentration)  1 action 10 minutes  Friendlies: advantage on saving throws against magic/effects. No half DAM. {\textbf Target:} 30 ft. radius sphere Self      \textit (concentration)
+		{ Friendlies: advantage on saving throws against magic/effects. No half DAM. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 10 minutes \textit (concentration) \\}
+		{\small {\textbf Target:} 30 ft. radius sphere \\}
+		{\small \textbf Range:\,\,}{\small Self \\}
+		{\small  }{\small \it  \\}
+		{\small  \\}
+		{\small  \\}
+    {\small \textbf Components:\,\,}{\small (V) \\}
+		{\small \textbf ID:\,\,}{\small 239 (page 221)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+&%False28
+
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, Con] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,dCon,font=\large] {Cloudkill \rotatebox[origin=c]{-90}{\subclass{white}{D}}\rotatebox[origin=c]{-90}{\subclass{orange}{U}}\class{red}\class{blue} \rotatebox[origin=c]{-90}{\textbf 5}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE Cloudkill \\}
+		{\tiny \\\*\\} % 222 240 V S   \textit (concentration)  1 action 10 minutes {\textbf Per Higher Lv:} Extra 1d8 DAM. DAM taken on entering or starting turn in area. Fog moves away 10 ft. per turn. {\textbf Target:} 20 ft. radius sphere 120 ft. {\textbf Roll:}  5d8 Poison {\textbf Saving Throw:} CON (Half DAM) Poison  \textit (concentration)
+		{ DAM taken on entering or starting turn in area. Fog moves away 10 ft. per turn. \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf Cast time:\,\,}{\small 1 action  \\}
+		{\small \textbf Duration:\,\,}{\small 10 minutes \textit (concentration) \\}
+		{\small {\textbf Target:} 20 ft. radius sphere \\}
+		{\small \textbf Range:\,\,}{\small 120 ft. \\}
+		{\small {\textbf Roll:}  5d8 }{\small \it Poison \\}
+		{\small {\textbf Per Higher Lv:} Extra 1d8 DAM. \\}
+		{\small {\textbf Saving Throw:} CON (Half DAM) \\}
+    {\small \textbf Components:\,\,}{\small (VS) \\}
+		{\small \textbf ID:\,\,}{\small 240 (page 222)\\}
+ };
+
+\end{tikzpicture}
+
+
+
+%True29
+\end{tabular}
+\newline\begin{tabular}{@{}c@{\,\,\,\,}c@{\,\,\,\,}c@{}}
+
+\end{tabular}
+\end{document}

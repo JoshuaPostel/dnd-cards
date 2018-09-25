@@ -1,0 +1,542 @@
+SyncTeX Version:1
+Input:1:C:\Users\Josh\Desktop\dndcards\programTest.tex
+Input:2:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+Input:3:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+Input:4:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+Input:5:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+Input:6:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+Input:7:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+Input:8:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+Input:9:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+Input:10:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+Input:11:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+Input:12:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+Input:13:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+Input:14:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+Input:15:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+Input:16:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+Input:17:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+Input:18:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+Input:19:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+Input:20:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+Input:21:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+Input:22:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+Input:23:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+Input:24:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+Input:25:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+Input:26:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty
+Input:27:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg
+Input:28:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def
+Input:29:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+Input:30:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+Input:31:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+Input:32:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Input:33:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:34:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+Input:35:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+Input:36:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+Input:37:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+Input:38:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+Input:39:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+Input:40:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+Input:41:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg
+Input:42:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Input:43:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:44:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+Input:45:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+Input:46:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+Input:47:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+Input:48:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+Input:49:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+Input:50:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+Input:51:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+Input:52:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+Input:53:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+Input:54:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+Input:55:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+Input:56:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+Input:57:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+Input:58:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+Input:59:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+Input:60:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+Input:61:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+Input:62:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+Input:63:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+Input:64:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+Input:65:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+Input:66:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+Input:67:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+Input:68:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+Input:69:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+Input:70:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+Input:71:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+Input:72:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+Input:73:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+Input:74:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+Input:75:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Input:76:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Input:77:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+Input:78:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+Input:79:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:80:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+Input:81:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:82:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+Input:83:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:84:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Input:85:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+Input:86:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+Input:87:C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+Input:88:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty
+Input:89:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd
+Input:90:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd
+Input:91:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\antt\anttor.sty
+Input:92:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty
+Input:93:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def
+Input:94:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu
+Input:95:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
+Input:96:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+Input:97:C:\Users\Josh\Desktop\dndcards\programTest.aux
+Input:98:C:\Program Files (x86)\MiKTeX 2.9\tex\latex\antt\ot1antt.fd
+Input:99:C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+Output:pdf
+Magnification:1000
+Unit:1
+X Offset:0
+Y Offset:0
+Content:
+!8412
+{1
+[1,75:4736286,55703491:31624975,50967205,0
+h1,75:4736286,4736286:0,0,0
+[1,75:2797019,55703491:33564242,55357519,0
+[1,75:2797019,1460084:33564242,1114112,0
+(1,75:2797019,1460084:33564242,0,0
+h1,75:2797019,1460084:33564242,0,0
+)
+]
+[1,75:2797019,52583977:33564242,49786958,0
+(1,54:2797019,19978274:33564242,17181255,0
+h1,53:2797019,19978274:0,0,0
+(1,53:2797019,19978274:12437123,17181255,0
+g1,53:2820932,19978274
+(1,53:2820932,19965167:0,0,0
+(1,53:2820932,19965167:0,0,0
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,38:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+(1,39:2820932,19965167:0,0,0
+(1,39:2820932,19965167:0,0,0
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+g1,39:2820932,19965167
+(1,39:2820932,19965167:0,0,0
+g1,39:3716657,19965167
+(1,39:3716657,9362607:0,0,0
+(1,39:3716657,9362607:0,0,0
+(1,39:3716657,9362607:6113714,680459,157286
+(1,39:3716657,9362607:550108,680459,130352
+(1,39:3716657,8682148:0,550108,0
+(1,39:3716657,8682148:0,550108,0
+x1,39:4527468,8682148
+)
+)
+)
+g1,39:4528647,9362607
+x1,39:5116897,9362607
+x1,39:6223405,9362607
+g1,39:6485287,9362607
+x1,39:9018381,9362607
+g1,39:9280263,9362607
+(1,39:9280263,9362607:550108,499973,-50134
+(1,39:9280263,8862634:0,550108,0
+(1,39:9280263,8862634:0,550108,0
+x1,39:9730102,8862634
+)
+)
+)
+)
+)
+)
+g1,39:3716657,19965167
+)
+)
+)
+g1,40:2820932,19965167
+(1,51:2820932,19965167:0,0,0
+(1,51:2820932,19965167:0,0,0
+g1,51:2820932,19965167
+g1,51:2820932,19965167
+g1,51:2820932,19965167
+g1,51:2820932,19965167
+(1,51:2820932,19965167:0,0,0
+g1,51:4564996,19965167
+(1,51:4564996,3909022:0,0,0
+(1,51:4564996,3909022:0,0,0
+(1,51:4564996,3909022:10162437,660129,8307345
+[1,51:4564996,3909022:10162437,660129,8307345
+(1,41:4564996,3909022:10162437,660129,188743
+h1,40:4564996,3909022:0,0,0
+h1,40:4564996,3909022:0,0,0
+x1,40:5235979,3909022
+k1,41:4564996,3909022:-37748
+x1,41:6450542,3909022
+g1,41:6689722,3909022
+x1,41:9512376,3909022
+k1,41:14727433,3909022:5215057
+g1,41:14727433,3909022
+)
+(1,42:4564996,4531614:10162437,403701,115343
+h1,42:4564996,4531614:0,0,0
+x1,42:6047680,4531614
+g1,42:6286860,4531614
+x1,42:6773923,4531614
+x1,42:7546723,4531614
+k1,42:14727433,4531614:7180710
+g1,42:14727433,4531614
+)
+(1,42:4564996,5154206:10162437,0,0
+h1,42:4564996,5154206:0,0,0
+k1,42:14727433,5154206:10162437
+g1,42:14727433,5154206
+)
+(1,43:4564996,5776798:10162437,366739,104857
+h1,43:4564996,5776798:0,0,0
+x1,43:4924657,5776798
+x1,43:6358583,5776798
+x1,43:6805980,5776798
+g1,43:7045160,5776798
+x1,43:7586224,5776798
+g1,43:7825404,5776798
+x1,43:8098033,5776798
+g1,43:8337213,5776798
+x1,43:10170648,5776798
+x1,43:10322167,5776798
+g1,43:10561347,5776798
+x1,43:12197123,5776798
+k1,43:14727433,5776798:2530310
+g1,43:14727433,5776798
+)
+(1,44:4564996,6399390:10162437,366739,104857
+h1,44:4564996,6399390:0,0,0
+x1,44:6334992,6399390
+x1,44:7055018,6399390
+g1,44:7294198,6399390
+x1,44:7755046,6399390
+k1,44:14727433,6399390:6972387
+g1,44:14727433,6399390
+)
+(1,46:4564996,7290680:10162437,366739,104857
+h1,45:4564996,7290680:0,0,0
+x1,45:5762994,7290680
+x1,45:6339367,7290680
+x1,45:7310348,7290680
+k1,45:7549528,7290680:239180
+x1,45:8388911,7290680
+x1,45:9287720,7290680
+x1,45:10014383,7290680
+k1,45:14727433,7290680:4713050
+)
+(1,46:4564996,8181970:10162437,65536,0
+r1,46:14727433,8181970:10162437,65536,0
+g1,46:14727433,8181970
+g1,46:14727433,8181970
+)
+(1,47:4564996,9073260:10162437,0,0
+h1,47:4564996,9073260:0,0,0
+k1,47:14727433,9073260:10162437
+g1,47:14727433,9073260
+)
+(1,48:4564996,9695852:10162437,366739,52429
+h1,48:4564996,9695852:0,0,0
+x1,48:4968173,9695852
+x1,48:5939154,9695852
+k1,48:6178334,9695852:239180
+x1,48:6551103,9695852
+x1,48:7160326,9695852
+k1,48:7399506,9695852:239180
+x1,48:8712322,9695852
+k1,48:8951502,9695852:239180
+x1,48:9811857,9695852
+k1,48:10051037,9695852:239180
+x1,48:10366134,9695852
+x1,48:10525517,9695852
+k1,48:10764697,9695852:239180
+x1,48:11540118,9695852
+k1,48:11779298,9695852:239180
+x1,48:13004034,9695852
+k1,48:13243214,9695852:239180
+x1,48:14291264,9695852
+k1,48:14727433,9695852:436169
+)
+(1,48:4564996,10318444:10162437,366739,52429
+x1,48:5789732,10318444
+g1,48:6028912,10318444
+x1,48:6986786,10318444
+g1,48:7225966,10318444
+x1,48:8274016,10318444
+g1,48:8513196,10318444
+x1,48:9746845,10318444
+k1,48:14727433,10318444:4980588
+g1,48:14727433,10318444
+)
+(1,50:4564996,11209734:10162437,366739,104857
+h1,49:4564996,11209734:0,0,0
+x1,49:5694835,11209734
+k1,50:14727433,11209734:9032598
+g1,50:14727433,11209734
+)
+(1,51:4564996,12101024:10162437,403701,115343
+h1,51:4564996,12101024:0,0,0
+x1,51:5684875,12101024
+g1,51:5924055,12101024
+x1,51:7022961,12101024
+k1,51:14727433,12101024:7704472
+g1,51:14727433,12101024
+)
+]
+)
+)
+)
+g1,51:4564996,19965167
+)
+)
+)
+g1,53:2820932,19965167
+)
+g1,53:2820932,19965167
+)
+)
+k1,54:36361261,19978274:21127119
+g1,54:36361261,19978274
+)
+(1,72:2797019,38116355:33564242,17181255,0
+h1,71:2797019,38116355:0,0,0
+(1,71:2797019,38116355:12426317,17181255,0
+g1,71:2810126,38116355
+(1,71:2810126,38103248:0,0,0
+(1,71:2810126,38103248:0,0,0
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,56:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+(1,57:2810126,38103248:0,0,0
+(1,57:2810126,38103248:0,0,0
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+g1,57:2810126,38103248
+(1,57:2810126,38103248:0,0,0
+g1,57:3863137,38103248
+(1,57:3863137,27558098:0,0,0
+(1,57:3863137,27558098:0,0,0
+(1,57:3863137,27558098:6171125,550108,0
+(1,57:3863137,27558098:550108,503512,-46596
+(1,57:3863137,27054586:0,550108,0
+(1,57:3863137,27054586:0,550108,0
+x1,57:4320053,27054586
+)
+)
+)
+g1,57:4675127,27558098
+x1,57:6859047,27558098
+g1,57:7120929,27558098
+x1,57:7990722,27558098
+x1,57:9222272,27558098
+g1,57:9484154,27558098
+(1,57:9484154,27558098:550108,499973,-50134
+(1,57:9484154,27058125:0,550108,0
+(1,57:9484154,27058125:0,550108,0
+x1,57:9933993,27058125
+)
+)
+)
+)
+)
+)
+g1,57:3863137,38103248
+)
+)
+)
+g1,58:2810126,38103248
+(1,69:2810126,38103248:0,0,0
+(1,69:2810126,38103248:0,0,0
+g1,69:2810126,38103248
+g1,69:2810126,38103248
+g1,69:2810126,38103248
+g1,69:2810126,38103248
+(1,69:2810126,38103248:0,0,0
+g1,69:4554190,38103248
+(1,69:4554190,22047103:0,0,0
+(1,69:4554190,22047103:0,0,0
+(1,69:4554190,22047103:10162437,660129,8929937
+[1,69:4554190,22047103:10162437,660129,8929937
+(1,59:4554190,22047103:10162437,660129,0
+h1,58:4554190,22047103:0,0,0
+h1,58:4554190,22047103:0,0,0
+x1,58:6984261,22047103
+g1,59:7223441,22047103
+x1,59:8196414,22047103
+x1,59:9591226,22047103
+k1,59:14716627,22047103:5125401
+g1,59:14716627,22047103
+)
+(1,60:4554190,22669695:10162437,366739,104857
+h1,60:4554190,22669695:0,0,0
+x1,60:4905462,22669695
+k1,60:14716627,22669695:9811165
+g1,60:14716627,22669695
+)
+(1,60:4554190,23292287:10162437,0,0
+h1,60:4554190,23292287:0,0,0
+k1,60:14716627,23292287:10162437
+g1,60:14716627,23292287
+)
+(1,61:4554190,23914879:10162437,366739,104857
+h1,61:4554190,23914879:0,0,0
+x1,61:4913851,23914879
+x1,61:6347777,23914879
+x1,61:7432184,23914879
+k1,61:14716627,23914879:7284443
+g1,61:14716627,23914879
+)
+(1,62:4554190,24537471:10162437,366739,104857
+h1,62:4554190,24537471:0,0,0
+x1,62:6324186,24537471
+x1,62:7408593,24537471
+k1,62:14716627,24537471:7308034
+g1,62:14716627,24537471
+)
+(1,64:4554190,25428761:10162437,366739,104857
+h1,63:4554190,25428761:0,0,0
+x1,63:5752188,25428761
+x1,63:6452996,25428761
+k1,63:14716627,25428761:8263631
+)
+(1,64:4554190,26320051:10162437,65536,0
+r1,64:14716627,26320051:10162437,65536,0
+g1,64:14716627,26320051
+g1,64:14716627,26320051
+)
+(1,65:4554190,27211341:10162437,0,0
+h1,65:4554190,27211341:0,0,0
+k1,65:14716627,27211341:10162437
+g1,65:14716627,27211341
+)
+(1,66:4554190,27833933:10162437,366739,104857
+h1,66:4554190,27833933:0,0,0
+x1,66:5759003,27833933
+k1,66:5998183,27833933:239180
+x1,66:6517752,27833933
+x1,66:7178878,27833933
+x1,66:8539405,27833933
+k1,66:8778585,27833933:239180
+x1,66:9231570,27833933
+k1,66:9470750,27833933:239180
+x1,66:10575948,27833933
+x1,66:11738819,27833933
+x1,66:11898727,27833933
+k1,66:14716627,27833933:2817900
+)
+(1,66:4554190,28456525:10162437,390070,104857
+x1,66:9785533,28456525
+k1,66:10024713,28456525:239180
+x1,66:11333860,28456525
+k1,66:11573040,28456525:239180
+x1,66:12771562,28456525
+k1,66:14716627,28456525:1945065
+)
+(1,66:4554190,29079117:10162437,246415,104857
+x1,66:5843414,29079117
+x1,66:6828027,29079117
+k1,66:14716627,29079117:7888600
+g1,66:14716627,29079117
+)
+(1,68:4554190,29970407:10162437,366739,0
+h1,67:4554190,29970407:0,0,0
+x1,67:4883967,29970407
+k1,68:14716627,29970407:9832660
+g1,68:14716627,29970407
+)
+(1,69:4554190,30861697:10162437,403701,115343
+h1,69:4554190,30861697:0,0,0
+x1,69:5674069,30861697
+g1,69:5913249,30861697
+x1,69:7012155,30861697
+k1,69:14716627,30861697:7704472
+g1,69:14716627,30861697
+)
+]
+)
+)
+)
+g1,69:4554190,38103248
+)
+)
+)
+g1,71:2810126,38103248
+)
+g1,71:2810126,38103248
+)
+)
+k1,72:36361261,38116355:21137925
+g1,72:36361261,38116355
+)
+]
+(1,75:2797019,55703491:33564242,501973,0
+(1,75:2797019,55703491:33564242,501973,0
+(1,75:2797019,55703491:33564242,501973,0
+[1,75:2797019,55703491:33564242,501973,0
+(1,75:2797019,55703491:33564242,501973,0
+k1,75:19392559,55703491:16595540
+x1,75:19765720,55703491
+k1,75:36361260,55703491:16595540
+)
+]
+)
+g1,75:36361261,55703491
+)
+)
+]
+]
+!9814
+}1
+Input:100:C:\Users\Josh\Desktop\dndcards\programTest.aux
+!66
+Postamble:
+Count:345
+!25
+Post scriptum:

@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[rounded corners=0.1cm, @0] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,d@0,font=\large] {@s @b \rotatebox[origin=c]{-90}{\textbf @l}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\LARGE @s \\}
+		{\tiny \\\*\\} % @1 @2 @3 @4 @5 @6 @7 @8 @9 @c @h @e @a @r @d @k @t @k @f @g
+		{ @e \\}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	{\tiny \\\*\\}
+		{\small \textbf{Cast time:}\,\,}{\small @9 @8 \\}
+		{\small \textbf{Duration:}\,\,}{\small @c @g \\}
+		{\small @a \\}
+		{\small \textbf{Range:}\,\,}{\small @r \\}
+		{\small @d }{ @k \\}
+		{\small @h \\}
+		{\small @t \\}
+    {\small \textbf{Components:}\,\,}{\small (@3@4@5@6@f) \\}
+		{\small \textbf{ID:}\,\,}{\small @2 (page @1)\\}
+ };
+
+\end{tikzpicture}

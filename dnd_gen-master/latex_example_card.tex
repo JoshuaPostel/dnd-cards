@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+\draw[rounded corners=0.2cm] (0,0) rectangle (\cardwidth,\cardheight);
+\fill[@color,rounded corners=0.1cm] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,white,font=\large] {\rotatebox[origin=c]{-90}{@C} \bf @spellName \rotatebox[origin=c]{-90}{@L}};
+\node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding-0.3)*1cm,below right] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) {
+    {\Large @spellName \\}
+		{\scriptsize \it if@saveThrow\\\*\\}
+		{\scriptsize \bf Target:\,\,}{\scriptsize @targetArea\\}
+		{\scriptsize \bf Range:\,\,}{\scriptsize @range\\}
+		{\scriptsize \bf Roll:\,\,}{\scriptsize @damage\,\,}{\scriptsize \it if@damageType}
+  \vrule width \textwidth height 1pt \\[-3pt]
+	\\\hspace\\
+	{\scriptsize \it @detail \\}
+        {\scriptsize if@higherLv} % <------Give a line break here
+ \vfill
+{\scriptsize if@components (@pageNumber)} };
+
+\end{tikzpicture}
